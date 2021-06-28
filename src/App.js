@@ -6,6 +6,7 @@ import Greetings from './Greetings';
 import Random from './Random';
 import BoxColor from './BoxColor';
 import CreditCard from './CreditCard';
+import Rating from './Rating';
 
 function App() {
   return (
@@ -70,6 +71,9 @@ function App() {
         color="white" />
       </div>
     
+    <div>
+      <Rating>1.49</Rating>
+    </div>
     </div>
   );
 }
